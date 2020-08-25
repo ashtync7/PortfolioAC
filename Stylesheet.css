@@ -1,0 +1,68 @@
+img {
+   size: cover;
+   opacity: 70%;
+   position: 0 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+
+#structure > div {
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-bar-ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 7px;
+}
+
+.nav-bar {
+    background-color: black;
+    margin: 0;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: black;
+}
+
+h4 {
+    color: white;
+}
+
+.about-me {
+    color: white;
+}
+
+#logoID img {
+    height: 280px;
+    width: 350px;
+}
+
+#coffeemugs {
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
