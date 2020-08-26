@@ -95,3 +95,21 @@ footer {
     display: flex;
     align-items: center;
 }
+
+#themkids {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#contact {
+    color: white;
+    align-content: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
