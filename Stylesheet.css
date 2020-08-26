@@ -1,7 +1,9 @@
-  img {
+img {
    size: cover;
    opacity: 70%;
    position: 0 0; 
+   padding: 0;
+   margin: 0;
 }
 
 .container {
@@ -29,19 +31,28 @@
     text-decoration: none;
     list-style-type: none;
     justify-content: space-around;
-    margin: 7px;
-    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+    border: 0;
 }
 
 .nav-bar {
-    background-color: black;
+    background-color: pink;
+    padding: 0;
+    border: 0;
     margin: 0;
 }
 
 .nav-bar a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 body {
