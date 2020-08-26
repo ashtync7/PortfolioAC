@@ -1,7 +1,7 @@
-img {
+  img {
    size: cover;
    opacity: 70%;
-   position: 0 0;
+   position: 0 0; 
 }
 
 .container {
@@ -30,6 +30,7 @@ img {
     list-style-type: none;
     justify-content: space-around;
     margin: 7px;
+    padding: 0;
 }
 
 .nav-bar {
@@ -45,19 +46,24 @@ img {
 
 body {
     background-color: black;
+    margin: 0px;
 }
 
 h4 {
     color: white;
+    font-size: 40px;
+    margin: 0px;
 }
 
 .about-me {
     color: white;
 }
 
-#logoID img {
-    height: 280px;
-    width: 350px;
+#logo {
+    height: 350px;
+    width: 340px;
+    margin-top: 90px;
+    margin-left: 250px;
 }
 
 #coffeemugs {
@@ -65,4 +71,16 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+#homeStuff {
+    display: flex;
+    align-items: center;
 }
