@@ -4,6 +4,7 @@ img {
    position: 0 0; 
    padding: 0;
    margin: 0;
+   border: 0;
 }
 
 .container {
@@ -97,6 +98,7 @@ footer {
 #homeStuff {
     display: flex;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 #themkids {
@@ -115,15 +117,27 @@ footer {
 h2 {
     color: white;
     text-align: center;
+    padding-bottom: 600px;
 }
 
 #ironhack {
-    height: 150px;
-    width: 150px;
-    opacity: 100%;
-    padding-left: 44%;
-    padding-top: 2%;
-    padding-bottom: 0;
+    height: 240px;
+    width: 240px;
+    margin-left: 350px;
+    opacity: 100;
+}
+
+#textish {
+    color: white;
+    display: block;
+    align-items: center;
+    width: 400px;
+    padding-left: 670px;
+    padding-top: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .portfolio {
@@ -133,4 +147,41 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+}
+
+#classpage {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+a.button2 {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    margin-left: 200px;
+    }
+
+a.button2:hover {
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+    }
+
+a.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+
+@media all and (max-width:30em){
+a.button2{
+    display:block;
+    margin:0.4em auto;
+}
 }
