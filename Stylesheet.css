@@ -44,6 +44,7 @@ img {
     background-color: pink;
     padding: 0;
     margin-bottom: 10px;
+    margin-top: -5px;
 }
 
 .nav-bar a {
@@ -74,6 +75,7 @@ h4 {
 #logo {
     height: 350px;
     width: 340px;
+    margin-top: 110px;
 }
 
 #coffeemugs {
@@ -89,16 +91,20 @@ footer {
     color: white;
     text-align: center;
     width: 100%;
-    bottom: 0;
-    left: 0;
 }
 
 #homeStuff {
     display: flex;
     align-items: center;
     padding-bottom: 100px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+}
+
+@media (max-width:600px) {
+    #homeStuff{
+        flex-direction: column;
+    }
 }
 
 #themkids {
@@ -160,10 +166,18 @@ h2 {
     margin-right: 70px;
 }
 
+#HP {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 400px;
+    font-size: 20px;
+    margin-top: 40px;
+}
 
-
-a.button2 {
-    display:inline-block;
+.button2 {
+    display: flex;
     padding:0.5em 3em;
     border:0.16em solid #FFFFFF;
     box-sizing: border-box;
@@ -174,22 +188,56 @@ a.button2 {
     color:#FFFFFF;
     text-align:center;
     transition: all 0.15s;
-    margin-left: 200px;
+    cursor: pointer;
+    justify-content: center;
+    background: none;
+    margin: auto;
+    align-items: center;
+    margin-top: 40px;
     }
 
-a.button2:hover {
+.button2:hover {
     color:#DDDDDD;
     border-color:#DDDDDD;
     }
 
-a.button2:active{
+.button2:active{
     color:#BBBBBB;
     border-color:#BBBBBB;
     }
 
 @media all and (max-width:30em){
-a.button2{
+.button2{
     display:block;
     margin:0.4em auto;
 }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: navy;
+    color: white;
+}
+
+.fa-instagram {
+    background: fuchsia;
+    color: white;
+}
+
+form {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
