@@ -163,6 +163,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 /* .leftName {
@@ -258,4 +259,8 @@ h3 {
 #page-container {
     position: relative;
     min-height: 100vh;
+  }
+
+  #demkids {
+      color: white;
   }
