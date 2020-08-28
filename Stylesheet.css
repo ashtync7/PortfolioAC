@@ -162,9 +162,10 @@ h2 {
     align-items: center;
 }
 
-.leftName {
+/* .leftName {
     margin-right: 70px;
-}
+    text-align: left;
+} */
 
 #HP {
     color: white;
