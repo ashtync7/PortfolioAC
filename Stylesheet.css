@@ -39,6 +39,8 @@ img {
     padding-left: 0px;
     margin: 0;
     border: 0;
+    font-family: 'Prata', serif;
+    font-size: 15px;
 }
 
 .nav-bar {
@@ -46,6 +48,7 @@ img {
     padding: 0;
     margin-bottom: 10px;
     margin-top: -5px;
+    font-family: 'Prata', serif;
 }
 
 .nav-bar a {
@@ -87,9 +90,11 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
     padding-bottom: 200px;
+    height: 500px;
+    width: 470px;
 }
 
 footer {
@@ -124,7 +129,6 @@ footer {
 
 .contact {
     color: white;
-    align-content: center;
 }
 
 h2 {
@@ -150,6 +154,8 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     margin-left: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
 }
 
 .portfolio {
@@ -268,4 +274,31 @@ h3 {
 
   #demkids {
       color: white;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
+  .emailbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #socialLinks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .sskills {
+      color: white;
+  }
+
+  .tskills {
+      color: white;
+  }
+
+  #pagecontainer {
+      display: flex;
+      flex-direction: row;
   }
