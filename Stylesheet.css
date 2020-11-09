@@ -292,10 +292,16 @@ h3 {
 
   .sskills {
       color: white;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      padding-right: 40px;
+      font-size: 20px;
   }
 
   .tskills {
       color: white;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      padding-left: 40px;
+      font-size: 20px;
   }
 
   #pagecontainer {
