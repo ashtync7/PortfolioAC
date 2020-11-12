@@ -15,10 +15,10 @@ img {
 
 .name {
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 5.5vw;
     color: white;
     font-family: 'Prata', serif;
 }
@@ -97,7 +97,7 @@ h4 {
     width: 470px;
 }
 
-footer {
+#footer {
     color: white;
     text-align: center;
     position: absolute;
@@ -164,7 +164,7 @@ h2 {
     top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 1.7vw;
     font-family: 'Prata', serif;
 }
 
@@ -293,15 +293,17 @@ h3 {
   .sskills {
       color: white;
       font-family: 'Yanone Kaffeesatz', sans-serif;
-      padding-right: 40px;
+      padding-right: 250px;
       font-size: 20px;
+      text-align: center;
   }
 
   .tskills {
       color: white;
       font-family: 'Yanone Kaffeesatz', sans-serif;
-      padding-left: 40px;
+      padding-left: 250px;
       font-size: 20px;
+      text-align: center;
   }
 
   #pagecontainer {
