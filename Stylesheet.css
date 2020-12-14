@@ -91,8 +91,7 @@ h4 {
     margin-right: auto;
     display: block;
     margin-top: 20px;
-    margin-bottom: 100px;
-    padding-bottom: 200px;
+    margin-bottom: 70px;
     height: 500px;
     width: 470px;
 }
@@ -293,22 +292,27 @@ h3 {
   .sskills {
       color: white;
       font-family: 'Yanone Kaffeesatz', sans-serif;
-      padding-right: 250px;
+      /* padding-right: 150px; */
       font-size: 20px;
       text-align: center;
+      margin-bottom: 40px;
   }
 
   .tskills {
       color: white;
       font-family: 'Yanone Kaffeesatz', sans-serif;
-      padding-left: 250px;
+      /* padding-left: 150px; */
       font-size: 20px;
       text-align: center;
   }
 
   #pagecontainer {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+  }
+
+  h1 {
+    color: lightblue;
   }
 
 /* Projects page */
