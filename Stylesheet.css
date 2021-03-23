@@ -245,11 +245,13 @@ h2 {
 .fa-linkedin {
     background: navy;
     color: white;
+    margin-right: 2.5px;
 }
 
 .fa-instagram {
     background: fuchsia;
     color: white;
+    margin-left: 2.5px;
 }
 
 form {
