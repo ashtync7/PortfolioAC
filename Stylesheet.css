@@ -252,6 +252,12 @@ h2 {
     background: fuchsia;
     color: white;
     margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.fa-github {
+  background: rgb(48, 199, 28);
+  margin-left: 2.5px;
 }
 
 form {
